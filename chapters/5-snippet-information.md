@@ -123,7 +123,7 @@ Example:
 SnippetByteRange: 310:420
 ```
 
-**5.3.6** RDF: Property `spdx:Range` in class `spdx:Snippet`. The RDF uses the W3C proposed pointer method vocabulary (see [http://www.w3.org/TR/Pointers-in-RDF10/](http://www.w3.org/TR/Pointers-in-RDF10/)
+**5.3.6** RDF: Property `spdx:Range` in class `spdx:Snippet`. The RDF uses the W3C proposed pointer method vocabulary (see [http://www.w3.org/TR/Pointers-in-RDF10/](http://www.w3.org/TR/Pointers-in-RDF10/)).
 
 Supported classes from the pointer method vocabulary are `StartEndPointer` and `ByteOffsetPointer`. Supported properties from the pointer method vocabulary include:
 
@@ -367,7 +367,7 @@ SnippetLicenseComments: <text>The concluded license was taken from package xyz, 
 The concluded license information was found in the COPYING.txt file in package xyz.</text>
 ```
 
-**5.7.6 ** RDF: Property `spdx:licenseComments` in class `spdx:Snippet`
+**5.7.6** RDF: Property `spdx:licenseComments` in class `spdx:Snippet`
 
 Example:
 

@@ -21,7 +21,7 @@ and the locator formats for each of the categories.
 Locator Format:
 
 ```text
-"[c][pP][eE]:/[AHOaho]?(:[A-Za-z0-9\._\-~%]*){0,6}"
+[c][pP][eE]:/[AHOaho]?(:[A-Za-z0-9\._\-~%]*){0,6}
 ```
 
 Contextual Example:
@@ -39,7 +39,7 @@ Documentation: [https://cpe.mitre.org/files/cpe-specification_2.2.pdf](https://c
 Locator Format:
 
 ```text
-"cpe:2\.3:[aho\*\­]
+cpe:2\.3:[aho\*\­]
 (:(((\?*|\*?)([a­zA­Z0­9\­\._]|(\\[\\\*\?!
 "#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~])
 )+(\?*|\*?))|[\*\­])){5}
@@ -47,7 +47,7 @@ Locator Format:
 }))?)|[\*\­]))
 (:(((\?*|\*?)([a­zA­Z0­9\­\._]|(\\[\\\*\?!
 "#$$%&'\(\)\+,/:;<=>@\[\]\^`\{\|}~])
-)+(\?*|\*?))|[\*\­])){4}"
+)+(\?*|\*?))|[\*\­])){4}
 ```
 
 Contextual Example:
@@ -160,7 +160,8 @@ Documentation: [https://github.com/package-url/purl-spec](https://github.com/pac
 
 ### swh <a name="swh"></a>
 
-These point to objects present in the Software Heritage archive by the means of persistent identifiers
+These point to objects present in the Software Heritage archive by the means of
+SoftWare Heritage persisten Identifiers (SWHID),
 that are guaranteed to remain stable (persistent) over time.
 Their syntax is described below.
 Note that they are identifiers and not URLs.
@@ -174,6 +175,8 @@ Objects come in different types, and most notably:
 * revisions
 * releases
 * snapshots
+
+The SWHID follow the `swh:` IANA-registered URI scheme.
 
 Grammar for locator format:
 
